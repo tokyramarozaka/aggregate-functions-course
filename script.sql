@@ -1,0 +1,52 @@
+CREATE TABLE persons (
+    id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    age INT,
+    city VARCHAR(50)
+);
+
+INSERT INTO persons (first_name, last_name, age, city) VALUES
+('Toky', 'Rasolofoniaina', 25, 'Antananarivo'),
+('Fara', 'Randrianarisoa', 32, 'Fianarantsoa'),
+('Zo', 'Andriamanantena', 21, 'Antsirabe'),
+('Soa', 'Rakotomalala', 28, 'Toamasina'),
+('Lova', 'Rajaonarivelo', 30, 'Mahajanga'),
+('Tiana', 'Rakoto', 22, 'Antananarivo'),
+('Hasina', 'Razafindrakoto', 27, 'Antsiranana'),
+('Miora', 'Ranaivoson', 35, 'Fianarantsoa'),
+('Hery', 'Ravelomanana', 29, 'Antananarivo'),
+('Voahirana', 'Ratsimba', 24, 'Toamasina'),
+
+('Manitra', 'Razanajatovo', 26, 'Mahajanga'),
+('Njara', 'Ratsimbazafy', 34, 'Antsirabe'),
+('Ony', 'Andrianarimanana', 23, 'Fianarantsoa'),
+('Fenosoa', 'Rakotomanga', 31, 'Toamasina'),
+('Ketaka', 'Razafindrabe', 28, 'Antananarivo'),
+('Mahery', 'Rabe', 30, 'Antsiranana'),
+('Neny', 'Randrianantenaina', 33, 'Mahajanga'),
+('Voahirana', 'Andriamasinoro', 21, 'Fianarantsoa'),
+('Anjara', 'Rakotobe', 29, 'Toamasina'),
+('Tefy', 'Raharijaona', 24, 'Antananarivo'),
+
+('Lalaina', 'Razanamparany', 26, 'Antsirabe'),
+('Mamy', 'Rasoloarison', 37, 'Fianarantsoa'),
+('Fanilo', 'Rakotomavo', 35, 'Antananarivo'),
+('Vony', 'Andriambololona', 27, 'Mahajanga'),
+('Iangotiana', 'Ravoninjatovo', 22, 'Antsiranana'),
+('Kanto', 'Andriamamonjy', 33, 'Toamasina'),
+('Riandry', 'Ratsirahonana', 24, 'Antsirabe'),
+('Fanasina', 'Razanapiera', 25, 'Fianarantsoa'),
+('Tsanta', 'Rakotondramboa', 32, 'Antananarivo'),
+('Malala', 'Randriamampianina', 29, 'Toamasina'),
+
+('Tahina', 'Andriatsiferana', 31, 'Mahajanga'),
+('Noely', 'Rakotomahenina', 27, 'Fianarantsoa'),
+('Rado', 'Andriamanisa', 28, 'Antsirabe'),
+('Vero', 'Randriamananjara', 30, 'Antananarivo'),
+('Lanto', 'Razafinjatovo', 34, 'Antsiranana'),
+('Tantely', 'Rakotoniaina', 23, 'Toamasina'),
+('Izy', 'Randriamanampisoa', 21, 'Mahajanga'),
+('Heriniaina', 'Rakotomandrindra', 36, 'Fianarantsoa'),
+('Domoina', 'Andriambelo', 22, 'Antsirabe'),
+('Rindra', 'Ramaroson', 26, 'Antananarivo');
